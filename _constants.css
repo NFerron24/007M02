@@ -1,0 +1,11 @@
+/*Constants */
+$CONSTANTS(
+    $background: #c0eea9;
+    $backgroundsections: #97d279;
+    $standardpadding: 20px;
+    @mixin textstyle {
+        max-width: 700px;
+        text-align: center;
+        padding: $standardpadding;
+}
+)
